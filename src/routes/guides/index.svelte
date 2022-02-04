@@ -1,6 +1,6 @@
 <script context="module">
 	export async function load({ fetch }) {
-		const link = 'https://jsonplaceholder.typicode.com/todos/';
+		const link = '/guides/api.json';
 
 		const res = await fetch(link);
 		const guides = await res.json();
